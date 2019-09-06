@@ -1,0 +1,15 @@
+{
+    "name": "MVC",
+    "description": "MVC Project",
+    "authors": [{
+        "name": "Luis Gustavo Block Nienkotter",
+        "email": "luis.block.nienk@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {"Controller\\": "controller",
+                  "BO\\": "model/bo",
+                  "DAO\\": "model/dao",
+                  "DTO\\": "model/dto"}
+    },
+    "require": {}
+}

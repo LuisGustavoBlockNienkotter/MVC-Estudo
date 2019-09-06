@@ -1,0 +1,15 @@
+CREATE SCHEMA IF NOT EXISTS `MVC` DEFAULT CHARACTER SET utf8 ;
+USE `MVC` ;
+
+CREATE TABLE IF NOT EXISTS `MVC`.`Cliente` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nome` VARCHAR(45) NULL,
+  `idade` INT(45) NULL,
+  `cidade` VARCHAR(45) NULL,
+  `estado` VARCHAR(45) NULL,
+  `pais` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))
+ENGINE = InnoDB;
+
+select * from cliente;
